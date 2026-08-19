@@ -1,0 +1,5 @@
+# 测试覆盖率分析（dsh-test-coverage）bundle patch：作为 profile 的一层 patch，插入本插件的加载行。
+# 行 id 保持 ASCII 以便用户在自己的 cordis.patch.yml 中按 id 覆盖配置；插件显示名为中文。
+- insert:
+    - id: test-coverage
+      name: 'dsh-test-coverage'
